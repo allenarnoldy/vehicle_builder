@@ -33,7 +33,7 @@ To use the vehicle_bulid, run the following command:
 
     `npm run start`
 You can also check out a video of the generator being used here:
-"Need to add URL Here"
+https://drive.google.com/file/d/1-JbUvJe6TrUboxemfd2HH3ekP_xEhPqr/view?usp=sharing
 
 ## License
 
