@@ -1,6 +1,6 @@
 // import the Vehicle, Motorbike, Car, Wheel, and AbleToTow classes/interfaces
-import Vehicle from './Vehicle.js';
-import Wheel from './Wheel.js';
+import Vehicle from "./Vehicle.js";
+import Wheel from "./Wheel.js";
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
 class Truck extends Vehicle {
     // TODO: Create a constructor that accepts the properties of the Truck class
@@ -18,7 +18,7 @@ class Truck extends Vehicle {
         this.towingCapacity = towingCapacity;
         // TODO: The constructor should check if the wheels array has 4 elements and create 4 new default Wheel objects if it does not
         if (wheels.length !== 4) {
-            this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel(),];
+            this.wheels = [new Wheel(), new Wheel(), new Wheel(), new Wheel()];
         }
         else {
             this.wheels = wheels;
@@ -32,11 +32,11 @@ class Truck extends Vehicle {
         // TODO: Check if the vehicle's weight is less than or equal to the truck's towing capacity
         if (vehicle.weight <= this.towingCapacity) {
             // TODO: If it is, log that the vehicle is being towed
-            console.log(`The ${vehicleMake} ${vehicleModel} is being towed.`);
+            console.log(`Vehicle ${vehicleMake} ${vehicleModel} is being towed.`);
             // TODO: If it is not, log that the vehicle is too heavy to be towed
         }
         else {
-            console.log(`The ${vehicleMake} ${vehicleModel} is too heavy to be towed.`);
+            console.log(`Vehicle ${vehicleMake} ${vehicleModel} is too heavy to be towed.`);
         }
         return;
     }
