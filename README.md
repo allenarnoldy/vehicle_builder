@@ -43,7 +43,7 @@ This project is under the MIT License.
 
 ## Contributions
 
-contributions are welcome.
+contributions are welcome. I did get some help from the TA Austin with the truck being able to tow other trucks method.
 
 ## Tests
 
